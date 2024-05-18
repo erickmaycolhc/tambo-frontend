@@ -1,0 +1,232 @@
+:root {
+  --main-bg-color-primary: rgb(143 156 192);
+  --main-bg-color-secondary: rgb(176 175 202);
+  --main-bg-color-buttom: rgb(98 89 202);
+  --main-bg-color-input: rgb(232 232 247);
+}
+
+/* * body {
+  background-color: #eaedf7;
+} */
+
+.login-display-center {
+  margin: auto;
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  padding: 0px 20px;
+}
+
+.background-session {
+  /* background-color: #6259ca; */
+}
+.display-center-img {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.col-1 {
+  width: 42%;
+  background-color: #6259ca;
+  display: grid;
+  place-content: center;
+  padding: 0px 10px;
+}
+
+.col-2 {
+  width: 58%;
+  background-color: white;
+  padding: 75px 27px;
+}
+
+.col-1 > p {
+  color: white;
+  font-family: "Inter";
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+.login-display-col {
+  width: 944px;
+  display: flex;
+  margin: auto;
+}
+* img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.field-text-register {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.field-text-register > p {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 17px;
+  margin: 0;
+}
+
+.field-text-register > span {
+  color: #9e8fb1;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+figure {
+  margin: 0;
+}
+
+/* register user */
+.register-user-session {
+  margin-top: 1.9rem;
+}
+
+.rows > p {
+  font-weight: bold;
+  font-family: "Inter";
+  font-size: 16px;
+  margin: 0;
+  color: var(--main-bg-color-primary);
+  margin-bottom: 7px;
+}
+.rows > input {
+  border: 1px solid var(--main-bg-color-secondary);
+  border-radius: 5px;
+  width: 100%;
+  height: 35px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.rows > input[type="text"] {
+  font-size: 17px;
+}
+
+.rows > input::placeholder {
+  color: var(--main-bg-color-secondary);
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+.rows > input[type="text"]:focus {
+  border: 2px solid var(--main-bg-color-primary);
+}
+.rows > input[type="text"] {
+  -webkit-transition: 1s;
+  transition: s;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid var(--main-bg-color-input);
+  height: 50px;
+}
+
+/* password */
+.rows > input[type="password"] {
+  font-size: 17px;
+}
+
+.rows > input::placeholder {
+  color: var(--main-bg-color-secondary);
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+.rows > input[type="password"]:focus {
+  border: 2px solid var(--main-bg-color-primary);
+}
+.rows > input[type="password"] {
+  -webkit-transition: 1s;
+  transition: s;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid var(--main-bg-color-input);
+  height: 50px;
+}
+
+/* BUTTOM */
+
+.buttom-session {
+  width: 100%;
+  background-color: var(--main-bg-color-buttom);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.buttom-session > span {
+  color: white;
+  font-family: "Inter";
+  font-size: 16px;
+}
+
+.alert-user {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-login {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+@media screen and (max-width: 700px) {
+  .login-display-col {
+    flex-direction: column;
+  }
+
+  .display-center-img figure > img {
+    width: 170px;
+  }
+  .col-1 > p {
+    font-size: 18px;
+  }
+  .col-1 {
+    width: 100%;
+    padding: 20px;
+  }
+  .col-2 {
+    padding: 26px 15px !important;
+    width: 100%;
+  }
+  .login-display-center {
+    margin: auto;
+    height: auto;
+    align-items: inherit;
+    display: flex;
+    padding: 20px 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .login-display-center {
+    padding: 20px 0px !important;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .col-2 {
+    padding: 75px 10px;
+  }
+}
+.display-icon-input-password {
+  position: absolute;
+  top: 40px;
+  right: 11px;
+}
+.field-password {
+  position: relative;
+}

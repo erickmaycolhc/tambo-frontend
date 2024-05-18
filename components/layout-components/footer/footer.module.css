@@ -1,0 +1,77 @@
+footer {
+  width: 100%;
+  background: #a81b8d;
+  /* padding: 25px 0px; */
+  height: 70px;
+}
+nav {
+  text-align: center;
+  padding-top: 1rem;
+}
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li a {
+  color: #fff;
+  font-size: 1.3rem;
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+footer nav ul li a span {
+  display: block;
+}
+footer nav ul li a svg {
+  margin-right: 0.3rem;
+}
+footer nav ul li a:hover,
+footer nav ul li a.active {
+  color: yellow;
+}
+
+@media screen and (max-width: 482px) {
+  footer nav ul li a {
+    font-size: 1.2rem !important;
+    padding: 0.5rem 0.8rem !important;
+  }
+}
+@media screen and (max-width: 440px) {
+  footer nav ul li a {
+    font-size: 1.1rem !important;
+    padding: 0.5rem 0.6rem !important;
+  }
+}
+@media screen and (max-width: 398px) {
+  footer nav ul li a {
+    font-size: 1.1rem !important;
+    padding: 0.5rem 0.2rem !important;
+  }
+}
+@media screen and (max-width: 362px) {
+  footer nav ul li a {
+    font-size: 1rem !important;
+    padding: 0.5rem 0.4rem !important;
+  }
+}
+@media screen and (max-width: 352px) {
+  footer nav ul li a {
+    font-size: 1rem !important;
+    padding: 0.5rem 0.3rem !important;
+  }
+}
+@media screen and (max-width: 342px) {
+  footer nav ul li a {
+    font-size: 0.9rem !important;
+    padding: 0.5rem 0.2rem !important;
+  }
+}
+
+/* 
+       color: #fff;
+    font-size: 1.2rem;
+    display: flex;
+    padding: 0.5rem 0.8rem;
+    align-items: center;
+     */
